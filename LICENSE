@@ -19,3 +19,19 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+### Миний хувь нэмэр (My Contributions)
+Энэ төсөлд хийсэн миний үндсэн ажлууд:
+
+#### 🔧 Техникийн шинэчлэлт
+- React-reveal dependency-г устгаж, build алдаануудыг засварласан
+- Package.json файлыг шинэчилж, dependency conflict-уудыг шийдвэрлэсэн
+- Vite build системийг оновчтой ажиллуулсан
+- Production build-ийг амжилттай хийх боломжтой болгосон
+
+#### 🚀 Deployment шийдвэрлэлт
+- GitHub repository үүсгэж, кодыг зохион байгуулсан
+- Vercel deployment-ийн бүх алдаануудыг засварласан
+- Firebase integration-г найдвартай болгосон
+- Build process-ийг оновчтой болгосон
