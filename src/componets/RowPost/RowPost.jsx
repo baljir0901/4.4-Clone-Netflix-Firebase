@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import axios from "../../axios";
 import { imageUrl, imageUrl2, API_KEY } from "../../Constants/Constance";
 import useUpdateMylist from "../../CustomHooks/useUpdateMylist";
-import { Fade } from "react-reveal";
+
 import YouTube from "react-youtube";
 import StarRatings from "react-star-ratings";
 
@@ -147,7 +147,7 @@ function RowPost(props) {
                     </>
                   )}
                   <div className="content pt-16">
-                    <Fade bottom duration={300}>
+                    
                       <div className="flex transition ml-3 ease-in-out delay-150">
                         <div
                           onClick={() => playMovie(obj)}
@@ -289,7 +289,7 @@ function RowPost(props) {
                             </span>
                           );
                         })}
-                    </Fade>
+                    
                   </div>
                 </SwiperSlide>
               );
@@ -312,7 +312,7 @@ function RowPost(props) {
             <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
               <div className="relative w-auto mt-24 sm:my-6 mx-4 max-w-3xl">
                 {/*content*/}
-                <Fade bottom duration={500}>
+                
                   <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-neutral-800 outline-none focus:outline-none">
                     {/*header*/}
                     <button
@@ -407,7 +407,7 @@ function RowPost(props) {
                       </div>
                     </div>
 
-                    <Fade bottom>
+                    
                       <div className="p-5 py-4 -mb-6 mt-2 sm:mb-0 sm:mt-0 sm:py-2 sm:pt-6 rounded-t">
                         <h3 className="text-3xl font-semibold text-white">
                           {moviePopupInfo.title || moviePopupInfo.name}
@@ -416,9 +416,9 @@ function RowPost(props) {
                           {moviePopupInfo.release_date}
                         </h1>
                       </div>
-                    </Fade>
+                    
                     {/*body*/}
-                    <Fade bottom>
+                    
                       <div className="relative p-4 sm:p-6 flex-auto">
                         <div className="bg-neutral-700 h-[0.15rem]"></div>
                         <p className="my-4 sm:my-7 text-neutral-400 text-xs md:text-lg leading-relaxed line-clamp-4 sm:line-clamp-none">
@@ -426,11 +426,11 @@ function RowPost(props) {
                         </p>
                         <div className="bg-neutral-700 h-[0.15rem]"></div>
                       </div>
-                    </Fade>
+                    
                     {/*footer*/}
                     <div className="sm:flex items-center justify-end p-2 rounded-b">
                       {/*More Info*/}
-                      <Fade bottom>
+                      
                         <div className="relative p-2 py-5 sm:p-6 flex-auto">
                           <h1 className="flex -mt-4 text-neutral-400 text-sm leading-relaxed">
                             Rating :
@@ -472,7 +472,7 @@ function RowPost(props) {
                             )}
                           </h1>
                         </div>
-                      </Fade>
+                      
 
                       <div className="flex justify-between p-2">
                         <button
@@ -521,7 +521,7 @@ function RowPost(props) {
                       </div>
                     </div>
                   </div>
-                </Fade>
+                
               </div>
             </div>
             <div className="opacity-40 fixed inset-0 z-40 bg-black"></div>
